@@ -1,4 +1,4 @@
-<img src="https://github.com/realfaid/FitCalculator/blob/main/doc/wireframe.png">
+<img src="https://github.com/realfaid/FitCalculator/blob/main/doc/wireframe2.png">
 
 <p>Na hlavní stránce bude mít uživatel celkové skóre ze všech cviků/sportů a všechny své cviky/sporty. Bude si zde i moct taky přidat svůj vlastní cvik. Když rozklikne danou aktivitu, zobrazí se stránka, kde bude podrobně popsáno ohledně ní. V podrobném popisu bude počet bodů, pole pro zapsání bodů, denní průměr za posledních 30 dní a ukazatel kolik má splněno z limitu. Sportovec si bude moct vybrat datum od kdy aktivitu začal provozovat a bude si moct danou aktivitu upravit.</p>
 
