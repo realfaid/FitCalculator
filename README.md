@@ -8,5 +8,5 @@
 <p>Historii bodů si bude moc uživatel zobrazit na samostatné straně, kde budou vypsány 30ti denní období a kolik dostal za ně bodů, rozděleno podle aktivit</p>
 <p>Wireframe : <a href="https://github.com/realfaid/FitCalculator/blob/main/doc/wireframe.md">Zde</a></p>
 <p>Person : <a href="https://github.com/realfaid/FitCalculator/blob/main/doc/Person.md">Zde</a></p>
-<p>Návrh Databáze : <a href="https://github.com/realfaid/FitCalculator/blob/main/doc/datab%C3%A1ze.png">Zde</a></p>
+<p>Návrh Databáze : <a href="https://github.com/realfaid/FitCalculator/blob/main/doc/databaze.png">Zde</a></p>
 <p> Autoři: Řihák Pavel, Javor Jan, Mlýnek Ctibor </p>
