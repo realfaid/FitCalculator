@@ -1,4 +1,4 @@
-# fit_calculator
+# fit
 
 A new Flutter application.
 

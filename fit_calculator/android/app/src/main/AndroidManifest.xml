@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.fit_calculator">
+    package="com.example.fit">
    <application
-        android:label="fit_calculator"
+        android:label="fit"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
