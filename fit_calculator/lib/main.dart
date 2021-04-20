@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.teal[600],
       ),
       home: DropdownMenuDemo(),
+
     );
   }
 }
@@ -22,31 +23,37 @@ class DropdownMenuDemo extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('FitCalculator'),
+
         actions: [
+          IconButton(icon: Icon(Icons.calendar_today), onPressed: (){}),
           PopupMenuButton(
             icon: Icon(Icons.more_vert),
             itemBuilder: (BuildContext context) => <PopupMenuEntry>[
               const PopupMenuItem(
                 child: ListTile(
                   leading: Icon(Icons.add),
-                  title: Text('TAK JO'),
+                  title: Text('Moje cvičistě'),
                 ),
               ),
               const PopupMenuItem(
                 child: ListTile(
                   leading: Icon(Icons.anchor),
-                  title: Text('Uvidime'),
+                  title: Text('Nápověda'),
+                  onTap: ()
+                  {
+                    Navigator.push(context, new MaterialPage(builder: (context) => new HelpPage()))
+                  },
                 ),
               ),
-              const PopupMenuItem(
-                child: ListTile(
-                  leading: Icon(Icons.article),
-                  title: Text('Nevime'),
-                ),
-              ),
-              const PopupMenuDivider(),
-              const PopupMenuItem(child: Text('Item A')),
-              const PopupMenuItem(child: Text('Item B')),
+             // const PopupMenuItem(
+                //child: ListTile(
+                //  leading: Icon(Icons.article),
+                 // title: Text('Nevime'),
+               // ),
+             // ),
+              //const PopupMenuDivider(),
+             // const PopupMenuItem(child: Text('Item A')),
+              //const PopupMenuItem(child: Text('Item B')),
             ],
           ),
         ],
@@ -55,3 +62,6 @@ class DropdownMenuDemo extends StatelessWidget {
     );
   }
 }
+
+
+
