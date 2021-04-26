@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 void main() => runApp(MyApp());
 
@@ -30,6 +31,7 @@ class DropdownMenuDemo extends StatelessWidget {
                 child: ListTile(
                   leading: Icon(Icons.add),
                   title: Text('jedna vec'),
+
                 ),
               ),
               const PopupMenuItem(
@@ -45,8 +47,7 @@ class DropdownMenuDemo extends StatelessWidget {
                 ),
               ),
               const PopupMenuDivider(),
-              const PopupMenuItem(child: Text('Item A')),
-              const PopupMenuItem(child: Text('Item B')),
+
             ],
           ),
         ],
