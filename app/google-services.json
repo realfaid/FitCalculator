@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "363350408684",
+    "project_id": "databaze-a9030",
+    "storage_bucket": "databaze-a9030.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363350408684:android:19cb306178f63b17e3d4c9",
+        "android_client_info": {
+          "package_name": "com.example.databaze"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363350408684-u912fobve31km6qpucu925clfu7uhuvh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsP49mVaKULsZaR2GpN9qQSfaKnBXi2Gg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363350408684-u912fobve31km6qpucu925clfu7uhuvh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
