@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="historie"
+        android:id="@+id/history_menu"
+
+        app:showAsAction="always"
+
+        />
+    <item
+        android:title="Moje cvičiště"
+        android:id="@+id/main_menu"
+        app:showAsAction="never"
+        />
+    <item
+        android:title="Nápověda"
+        android:id="@+id/guide_menu"
+        app:showAsAction="never"
+        />
+
+</menu>
