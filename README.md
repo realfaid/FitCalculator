@@ -11,4 +11,6 @@
 <p>Person : <a href="https://github.com/realfaid/FitCalculator/blob/main/doc/Person.md">Zde</a></p>
 <p>Návrh Databáze : <a href="https://github.com/realfaid/FitCalculator/blob/main/doc/databaze.png">Zde</a></p>
 <p>Návrh use-case Diagram : <a href="https://github.com/realfaid/FitCalculator/blob/main/doc/use-case%20Diagram.png">Zde</a></p>
+<p>Dokumentace : <a href="https://github.com/realfaid/FitCalculator/blob/main/doc/FitCalculator-Dokumentace.pdf">Zde</a></p>
+
 <p> Autoři: Řihák Pavel, Javor Jan, Mlýnek Ctibor </p>
