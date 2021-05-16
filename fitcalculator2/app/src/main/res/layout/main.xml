@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <Button
+        android:id="@+id/cvik2"
+        android:layout_width="315dp"
+        android:layout_height="91dp"
+        android:text=""
+        android:visibility="visible"
+        app:backgroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.587"
+        app:rippleColor="#43FF00" />
+
+    <Button
+        android:id="@+id/cvik1"
+        android:layout_width="315dp"
+        android:layout_height="91dp"
+        android:text=""
+        android:visibility="visible"
+        app:backgroundTint="#00FF0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.418"
+
+        app:rippleColor="#43FF00" />
+
+    <TextView
+        android:id="@+id/nazevCviku1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jízda na kole"
+        android:textSize="17dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/cvik1"
+        app:layout_constraintEnd_toEndOf="@+id/cvik1"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="@+id/cvik1"
+        app:layout_constraintTop_toTopOf="@+id/cvik1"
+        app:layout_constraintVertical_bias="0.236" />
+
+    <TextView
+        android:id="@+id/nazevCviku2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chůze"
+        android:textSize="17dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/cvik2"
+        app:layout_constraintEnd_toEndOf="@+id/cvik2"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="@+id/cvik2"
+        app:layout_constraintTop_toTopOf="@+id/cvik2"
+        app:layout_constraintVertical_bias="0.263" />
+
+    <TextView
+        android:id="@+id/limitCviku1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="xx/xx z limitu"
+        android:textSize="14dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/cvik1"
+        app:layout_constraintEnd_toEndOf="@+id/cvik1"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="@+id/cvik1"
+        app:layout_constraintTop_toTopOf="@+id/cvik1"
+        app:layout_constraintVertical_bias="0.625" />
+
+    <TextView
+        android:id="@+id/limitCviku2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="xx/xx z limitu"
+        android:textAlignment="center"
+        android:textSize="14dp"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/cvik2"
+        app:layout_constraintEnd_toEndOf="@+id/cvik2"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/cvik2"
+        app:layout_constraintTop_toTopOf="@+id/cvik2"
+        app:layout_constraintVertical_bias="0.638" />
+
+    <TextView
+        android:id="@+id/pocetCelkovychBodu"
+        android:layout_width="234dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:text="45"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.178" />
+
+    <TextView
+        android:id="@+id/napisCelkoveBody"
+        android:layout_width="244dp"
+        android:layout_height="37dp"
+        android:layout_gravity="center"
+        android:text="Celkových bodů"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.26" />
+
+    <ImageButton
+        android:id="@+id/plusButton"
+        android:onClick="plusButtonClicked"
+        android:layout_width="124dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="12dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cvik2"
+        app:layout_constraintVertical_bias="0.266"
+        app:srcCompat="@mipmap/plus_button_background" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
