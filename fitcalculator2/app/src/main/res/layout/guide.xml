@@ -7,6 +7,46 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="307dp"
+        android:layout_height="92dp"
+        android:text="Menu \nV horní liště nalezneme menu a historií. V menu se nachází dané aktivity v kartě s názvem Moje cvičiště a Nápověda "
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109" />
 
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="307dp"
+        android:layout_height="107dp"
+        android:text="Historie \nV historií se nachází seznam s dokončenými aktivitami. Po rozkliknutí dané aktivity vidíme kdy aktivita začala, kdy skončila a počet bodů za toto období."
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text1"
+        app:layout_constraintVertical_bias="0.037" />
 
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="312dp"
+        android:layout_height="272dp"
+        android:text="Moje cvičiště \nZde najdeme všechny moje přidané aktivity a celkový počet bodů. K přidání aktivity klikneme na tlačítko +. Tím se dostaneme na druhou kartu, kde vyplníme požadované pole a aktivita se nám přidá na hlavní obrazovku. Při rozkliknutí dané aktivity se zobrazí stránka,
+kde bude aktivita popsána. K přidání bodů k dané aktivitě, rozklikneme vybranou aktivitu a do řádku můžeme zapsat body. Po kliknutí na tlačítko Zapsat se nám body zapíší k dané aktivitě. V dané kartě můžeme pomocí tlačítka Úprava cviku daný cvik upravit."
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text2"
+        app:layout_constraintVertical_bias="0.086" />
 </androidx.constraintlayout.widget.ConstraintLayout>

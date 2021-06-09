@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "921610786592",
+    "project_id": "fitcalculator-8df86",
+    "storage_bucket": "fitcalculator-8df86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921610786592:android:86c497f76bf40c1e612945",
+        "android_client_info": {
+          "package_name": "com.example.fitcalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921610786592-v7lc41uqegpmgt6r348j1ufjkhnd96da.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAi9zPO7dF1zvxhCHpjH6o-UM3MAGOsdwE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "921610786592-v7lc41uqegpmgt6r348j1ufjkhnd96da.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
