@@ -6,9 +6,10 @@
 <p>Měsíc je brán jako 30 dní. Takže pokud začneme 14.3. 2021 daná aktivita mu skončí 14.4. 2021.</p>
 <p>Body se nám vždy přičtou na konci měsíce, počet přičtených bodů bude ovlivněn tím, z jaké části jsme splnili limit. Za 100% dostaneme 100 bodů za 60% dostaname pouze 60 bodů atd..</p>
 <p>Historii bodů si bude moc uživatel zobrazit na samostatné straně, kde budou vypsány 30ti denní období a kolik dostal za ně bodů, rozděleno podle aktivit</p>
-<p>Odkaz na tutoriál, vytvoření menu: https://material.io/components/menus/flutter#types</p>
 <p>Wireframe : <a href="https://github.com/realfaid/FitCalculator/blob/main/doc/wireframe.md">Zde</a></p>
 <p>Person : <a href="https://github.com/realfaid/FitCalculator/blob/main/doc/Person.md">Zde</a></p>
 <p>Návrh Databáze : <a href="https://github.com/realfaid/FitCalculator/blob/main/doc/databaze.png">Zde</a></p>
 <p>Návrh use-case Diagram : <a href="https://github.com/realfaid/FitCalculator/blob/main/doc/use-case%20Diagram.png">Zde</a></p>
+<p>Dokumentace : <a href="https://github.com/realfaid/FitCalculator/blob/main/doc/FitCalculator-Dokumentace.pdf">Zde</a></p>
+
 <p> Autoři: Řihák Pavel, Javor Jan, Mlýnek Ctibor </p>
